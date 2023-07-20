@@ -14,14 +14,26 @@
   </h1>
   <p>Welcome to <%= subheading %>
   </p>
-  <table>
-    <% names.forEach((name)=> { %>
+  <table id="glossary">
+    <tr>
+      <th>id</th>
+      <th>Term</th>
+      <th>Descreption</th>
+      <th>References</th>
+    </tr>
+    <% words.forEach((word)=> { %>
       <tr>
         <td>
-          <%= name.id %>
+          <%= word.id %>
         </td>
         <td>
-          <%= name.name %>
+          <%= word.Term %>
+        </td>
+        <td>
+          <%= word.Descreption %>
+        </td>
+        <td>
+          <%= word.References %>
         </td>
       </tr>
       <% })%>
