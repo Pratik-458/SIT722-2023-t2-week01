@@ -19,7 +19,7 @@ const glossary = [
   },
   {
     id: 3,
-    Term: "GIT",
+    Term: "Git",
     Descreption:
       "Git is a version control system which runs locally on your hardrive. Its free and open source.",
     References: "Spinellis, D., 2012. Git. IEEE software, 29(3), pp.100-101.",
@@ -79,6 +79,81 @@ const glossary = [
       "A web service is a software system designed to enable communication and data exchange between different applications over the internet. It allows various software components to interact and share data with each other, regardless of their underlying platforms, programming languages, or technologies.",
     References:
       "Tsai, W.T., Sun, X. and Balasooriya, J., 2010, April. Service-oriented cloud computing architecture. In 2010 seventh international conference on information technology: new generations (pp. 684-689). IEEE.",
+  },
+  {
+    id: 11,
+    Term: "Monolithic application",
+    Descreption:
+      "A monolith is an entire application that runs in a single process.",
+    References:
+      "Ashley Davis,  Bootstrapping microservices with docker, Kubernetes and teraform., 2021",
+  },
+  {
+    id: 12,
+    Term: "Distributed application",
+    Descreption:
+      "A distributed application is a program that runs on more than one computer and communicates through a network.",
+    References:
+      "Ashley Davis,  Bootstrapping microservices with docker, Kubernetes and teraform., 2021",
+  },
+  {
+    id: 13,
+    Term: "Docker",
+    Descreption:
+      "Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.",
+    References: "https://www.docker.com/",
+  },
+  {
+    id: 14,
+    Term: "Kubernetes",
+    Descreption:
+      "Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.",
+    References: "https://kubernetes.io/",
+  },
+  {
+    id: 15,
+    Term: "RabbitMQ",
+    Descreption:
+      "RabbitMQ is an open-source message-broker software that originally implemented the Advanced Message Queuing Protocol.",
+    References: "https://www.rabbitmq.com/",
+  },
+  {
+    id: 16,
+    Term: "Terraform",
+    Descreption:
+      "Terraform is an infrastructure as code tool that lets you build, change, and version cloud and on-prem resources safely and efficiently.",
+    References: "https://developer.hashicorp.com/terraform/intro",
+  },
+  {
+    id: 17,
+    Term: "Microservice",
+    Descreption:
+      "A microservice is a tiny and independent software process that runs on its own deployment schedule and can be updated independently.",
+    References:
+      "Ashley Davis,  Bootstrapping microservices with docker, Kubernetes and teraform., 2021",
+  },
+  {
+    id: 18,
+    Term: "Orchestration",
+    Descreption:
+      "Container orchestration automates the deployment, management, scaling, and networking of containers.",
+    References: "https://www.redhat.com/",
+  },
+  {
+    id: 19,
+    Term: "Domain Driven Design",
+    Descreption:
+      "Domain-driven design is a major software design approach, focusing on modeling software to match a domain according to input from that domain's experts.",
+    References:
+      "Vernon, V., 2013. Implementing domain-driven design. Addison-Wesley.",
+  },
+  {
+    id: 20,
+    Term: "ubiquitous",
+    Descreption:
+      "Omnipresence or ubiquity is the property of being present anywhere and everywhere.",
+    References:
+      "https://www.merriam-webster.com/dictionary/ubiquitous#:~:text=%3A%20existing%20or%20being%20everywhere%20at,a%20ubiquitous%20fashion",
   },
 ];
 /* GET home page. */
