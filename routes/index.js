@@ -155,6 +155,85 @@ const glossary = [
     References:
       "https://www.merriam-webster.com/dictionary/ubiquitous#:~:text=%3A%20existing%20or%20being%20everywhere%20at,a%20ubiquitous%20fashion",
   },
+  {
+    id: 21,
+    Term: "MongoDB",
+    Descreption:
+      "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.",
+    References:
+      "MongoDb [online] Available: https://www.mongodb.com/what-is-mongodb",
+  },
+  {
+    id: 22,
+    Term: "Container",
+    Descreption:
+      "Containerization involves creating isolated environments called containers that encapsulate software applications and their dependencies. These containers can run across various network resources, both in cloud and non-cloud environments, irrespective of the underlying infrastructure's type or provider.",
+    References:
+      "Docker container, [Online] Available: https://www.docker.com/resources/what-container/",
+  },
+  {
+    id: 23,
+    Term: "Registry",
+    Descreption:
+      "A container registry serves as a repository for developers to store, share, and transfer container images through uploading and downloading processes.",
+    References:
+      "https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry#:~:text=A%20container%20registry%20essentially%20acts,be%20run%20on%20that%20system.",
+  },
+  {
+    id: 24,
+    Term: "Resource Group",
+    Descreption:
+      "A resource group is a container that holds related resources for an Azure solution.",
+    References:
+      "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal",
+  },
+  {
+    id: 25,
+    Term: "Azure Subscription",
+    Descreption:
+      "Azure Subscriptions are essential for utilizing Azure's cloud services, binding to an Azure account and acting as a consolidated billing entity for the resources employed within that account.",
+    References:
+      "https://techcommunity.microsoft.com/t5/azure/understanding-azure-account-subscription-and-directory/m-p/34800",
+  },
+  {
+    id: 26,
+    Term: "Azure storage",
+    Descreption:
+      "Azure Storage is a cloud service for file storage, accessible through the Azure Portal, APIs, or command line, enabling file management and retrieval using Node.js Azure Storage SDK.",
+    References:
+      "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview",
+  },
+  {
+    id: 27,
+    Term: "Docker compose",
+    Descreption:
+      "Docker Compose allows us to configure, build, run, and manage multiple containers at the same time.",
+    References:
+      "Ashley Davis,  Bootstrapping microservices with docker, Kubernetes and teraform., 2021",
+  },
+  {
+    id: 28,
+    Term: "instantiated",
+    Descreption:
+      "To instantiate means to create a specific instance of an object within a class, assigning a name and placing it in a physical location if needed.",
+    References:
+      "https://www.techtarget.com/whatis/definition/instantiation#:~:text=To%20instantiate%20is%20to%20create,it%20in%20some%20physical%20place.",
+  },
+  {
+    id: 29,
+    Term: "YAML",
+    Descreption:
+      "YAML is a human-readable language used for data serialization, often for configuration files and situations involving data storage or transmission.",
+    References: "https://yaml.org/",
+  },
+  {
+    id: 30,
+    Term: "Access Keys",
+    Descreption:
+      "Access Keys serve to grant data access in your Azure resource through Shared Key authorization or signed SAS tokens.",
+    References:
+      "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal",
+  },
 ];
 /* GET home page. */
 router.get("/", function (req, res, next) {
