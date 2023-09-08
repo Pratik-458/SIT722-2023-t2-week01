@@ -234,6 +234,86 @@ const glossary = [
     References:
       "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal",
   },
+  {
+    id: 31,
+    Term: "Virtualization",
+    Descreption:
+      "virtualisation is the act of creating a virtual version of something at the same abstraction level, including virtual computer hardware platforms, storage devices, and computer network resources.",
+    References:
+      "What is virtualization? [online] Available: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-virtualization",
+  },
+  {
+    id: 32,
+    Term: "cluster",
+    Descreption:
+      "A cluster is a group of interconnected computers or servers working collectively for enhanced performance, availability, and scalability in various computing contexts.",
+    References:
+      "What is a Kubernetes cluster?, [Online] Available: https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-cluster",
+  },
+  {
+    id: 33,
+    Term: "IaaS (Infrastructure as a Service)",
+    Descreption:
+      "A cloud computing service model that provides virtualized computing resources over the internet. It includes services like virtual machines, storage, and networking.",
+    References:
+      "Difference between IAAS, PAAS and SAAS [Online] Available: ttps://www.geeksforgeeks.org/difference-between-iaas-paas-and-saas/",
+  },
+  {
+    id: 34,
+    Term: "PaaS (Platform as a Service)",
+    Descreption:
+      "A cloud computing service model that provides a platform for developers to build, deploy, and manage applications without worrying about the underlying infrastructure. It typically includes tools for application development, databases, and runtime environments.",
+    References:
+      "Difference between IAAS, PAAS and SAAS [Online] Available: ttps://www.geeksforgeeks.org/difference-between-iaas-paas-and-saas/",
+  },
+  {
+    id: 35,
+    Term: "SaaS (Software as a Service)",
+    Descreption:
+      "A cloud computing service model that delivers software applications over the internet on a subscription basis. Users access the software through a web browser, and the provider handles maintenance and updates.",
+    References:
+      "Difference between IAAS, PAAS and SAAS [Online] Available: ttps://www.geeksforgeeks.org/difference-between-iaas-paas-and-saas/",
+  },
+  {
+    id: 36,
+    Term: "Public Cloud",
+    Descreption:
+      "A cloud computing model where cloud resources are owned and operated by a third-party cloud service provider and are made available to the general public. Examples include AWS, Azure, and Google Cloud.",
+    References:
+      "What are public, private, and hybrid clouds? [Online] Available: https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds",
+  },
+  {
+    id: 37,
+    Term: "Private Cloud",
+    Descreption:
+      "A cloud computing model where cloud resources are used exclusively by a single organization. It offers more control and security but requires dedicated infrastructure.",
+    References:
+      "What are public, private, and hybrid clouds? [Online] Available: https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds",
+  },
+  {
+    id: 38,
+    Term: "SLA (Service Level Agreement)",
+    Descreption:
+      "A contract that defines the level of service, availability, and performance a cloud service provider guarantees to its customers.",
+    References:
+      "Service level agreements in Cloud computing [Online] Available: https://www.geeksforgeeks.org/service-level-agreements-in-cloud-computing/",
+  },
+  {
+    id: 39,
+    Term: "Load Balancing",
+    Descreption:
+      "The distribution of network traffic or application requests across multiple servers or resources to ensure high availability, scalability, and performance.",
+    References:
+      "What is load balancer and how it works [Online] Available: https://medium.com/@itIsMadhavan/what-is-load-balancer-and-how-it-works-f7796a230034",
+  },
+  {
+    id: 40,
+    Term: "Cloud Native",
+    Descreption:
+      "A design and development approach that leverages cloud computing principles, such as scalability and microservices, to build and run applications in the cloud.",
+    References:
+      "What is Cloud Native? [Online] Available: https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition",
+  },
 ];
 /* GET home page. */
 router.get("/", function (req, res, next) {
