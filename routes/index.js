@@ -101,28 +101,29 @@ const glossary = [
     Term: "Docker",
     Descreption:
       "Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.",
-    References: "https://www.docker.com/",
+    References: "Docker, [online] available: https://www.docker.com/",
   },
   {
     id: 14,
     Term: "Kubernetes",
     Descreption:
       "Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.",
-    References: "https://kubernetes.io/",
+    References: "Kubernetes, [online] Available: https://kubernetes.io/",
   },
   {
     id: 15,
     Term: "RabbitMQ",
     Descreption:
       "RabbitMQ is an open-source message-broker software that originally implemented the Advanced Message Queuing Protocol.",
-    References: "https://www.rabbitmq.com/",
+    References: "RabbitMQ, [online] Available: https://www.rabbitmq.com/",
   },
   {
     id: 16,
     Term: "Terraform",
     Descreption:
       "Terraform is an infrastructure as code tool that lets you build, change, and version cloud and on-prem resources safely and efficiently.",
-    References: "https://developer.hashicorp.com/terraform/intro",
+    References:
+      "Introduction to Terraform, [online] Available: https://developer.hashicorp.com/terraform/intro",
   },
   {
     id: 17,
@@ -137,7 +138,8 @@ const glossary = [
     Term: "Orchestration",
     Descreption:
       "Container orchestration automates the deployment, management, scaling, and networking of containers.",
-    References: "https://www.redhat.com/",
+    References:
+      "Container Orchestration, [online] Available: https://www.redhat.com/",
   },
   {
     id: 19,
@@ -149,11 +151,11 @@ const glossary = [
   },
   {
     id: 20,
-    Term: "ubiquitous",
+    Term: "Ubiquitous",
     Descreption:
       "Omnipresence or ubiquity is the property of being present anywhere and everywhere.",
     References:
-      "https://www.merriam-webster.com/dictionary/ubiquitous#:~:text=%3A%20existing%20or%20being%20everywhere%20at,a%20ubiquitous%20fashion",
+      "Ubiquitous [online] Available: https://www.merriam-webster.com/dictionary/ubiquitous#:~:text=%3A%20existing%20or%20being%20everywhere%20at,a%20ubiquitous%20fashion",
   },
   {
     id: 21,
@@ -161,7 +163,7 @@ const glossary = [
     Descreption:
       "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.",
     References:
-      "MongoDb [online] Available: https://www.mongodb.com/what-is-mongodb",
+      "MongoDb, [online] Available: https://www.mongodb.com/what-is-mongodb",
   },
   {
     id: 22,
@@ -177,7 +179,7 @@ const glossary = [
     Descreption:
       "A container registry serves as a repository for developers to store, share, and transfer container images through uploading and downloading processes.",
     References:
-      "https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry#:~:text=A%20container%20registry%20essentially%20acts,be%20run%20on%20that%20system.",
+      "what is a container registry, [Online] Available: https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry#:~:text=A%20container%20registry%20essentially%20acts,be%20run%20on%20that%20system.",
   },
   {
     id: 24,
@@ -185,7 +187,7 @@ const glossary = [
     Descreption:
       "A resource group is a container that holds related resources for an Azure solution.",
     References:
-      "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal",
+      "Manage resource groups, [Online] Available: https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal",
   },
   {
     id: 25,
@@ -193,7 +195,7 @@ const glossary = [
     Descreption:
       "Azure Subscriptions are essential for utilizing Azure's cloud services, binding to an Azure account and acting as a consolidated billing entity for the resources employed within that account.",
     References:
-      "https://techcommunity.microsoft.com/t5/azure/understanding-azure-account-subscription-and-directory/m-p/34800",
+      "Understanding azure account subscription and directory, [Online] Available: https://techcommunity.microsoft.com/t5/azure/understanding-azure-account-subscription-and-directory/m-p/34800",
   },
   {
     id: 26,
@@ -201,7 +203,7 @@ const glossary = [
     Descreption:
       "Azure Storage is a cloud service for file storage, accessible through the Azure Portal, APIs, or command line, enabling file management and retrieval using Node.js Azure Storage SDK.",
     References:
-      "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview",
+      "Storage account overview, [Online] Available: https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview",
   },
   {
     id: 27,
@@ -213,18 +215,18 @@ const glossary = [
   },
   {
     id: 28,
-    Term: "instantiated",
+    Term: "Instantiated",
     Descreption:
       "To instantiate means to create a specific instance of an object within a class, assigning a name and placing it in a physical location if needed.",
     References:
-      "https://www.techtarget.com/whatis/definition/instantiation#:~:text=To%20instantiate%20is%20to%20create,it%20in%20some%20physical%20place.",
+      "Instantiated, [Online] Available: https://www.techtarget.com/whatis/definition/instantiation#:~:text=To%20instantiate%20is%20to%20create,it%20in%20some%20physical%20place.",
   },
   {
     id: 29,
     Term: "YAML",
     Descreption:
       "YAML is a human-readable language used for data serialization, often for configuration files and situations involving data storage or transmission.",
-    References: "https://yaml.org/",
+    References: "YAML, [online] Available: https://yaml.org/",
   },
   {
     id: 30,
@@ -232,7 +234,7 @@ const glossary = [
     Descreption:
       "Access Keys serve to grant data access in your Azure resource through Shared Key authorization or signed SAS tokens.",
     References:
-      "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal",
+      "Storage account keys manage, [online] Available: https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal",
   },
   {
     id: 31,
@@ -240,7 +242,7 @@ const glossary = [
     Descreption:
       "virtualisation is the act of creating a virtual version of something at the same abstraction level, including virtual computer hardware platforms, storage devices, and computer network resources.",
     References:
-      "What is virtualization? [online] Available: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-virtualization",
+      "What is virtualization?, [online] Available: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-virtualization",
   },
   {
     id: 32,
@@ -256,7 +258,7 @@ const glossary = [
     Descreption:
       "A cloud computing service model that provides virtualized computing resources over the internet. It includes services like virtual machines, storage, and networking.",
     References:
-      "Difference between IAAS, PAAS and SAAS [Online] Available: ttps://www.geeksforgeeks.org/difference-between-iaas-paas-and-saas/",
+      "Difference between IAAS, PAAS and SAAS, [Online] Available: https://www.geeksforgeeks.org/difference-between-iaas-paas-and-saas/",
   },
   {
     id: 34,
@@ -264,7 +266,7 @@ const glossary = [
     Descreption:
       "A cloud computing service model that provides a platform for developers to build, deploy, and manage applications without worrying about the underlying infrastructure. It typically includes tools for application development, databases, and runtime environments.",
     References:
-      "Difference between IAAS, PAAS and SAAS [Online] Available: ttps://www.geeksforgeeks.org/difference-between-iaas-paas-and-saas/",
+      "Difference between IAAS, PAAS and SAAS, [Online] Available: https://www.geeksforgeeks.org/difference-between-iaas-paas-and-saas/",
   },
   {
     id: 35,
@@ -272,7 +274,7 @@ const glossary = [
     Descreption:
       "A cloud computing service model that delivers software applications over the internet on a subscription basis. Users access the software through a web browser, and the provider handles maintenance and updates.",
     References:
-      "Difference between IAAS, PAAS and SAAS [Online] Available: ttps://www.geeksforgeeks.org/difference-between-iaas-paas-and-saas/",
+      "Difference between IAAS, PAAS and SAAS, [Online] Available: https://www.geeksforgeeks.org/difference-between-iaas-paas-and-saas/",
   },
   {
     id: 36,
@@ -280,7 +282,7 @@ const glossary = [
     Descreption:
       "A cloud computing model where cloud resources are owned and operated by a third-party cloud service provider and are made available to the general public. Examples include AWS, Azure, and Google Cloud.",
     References:
-      "What are public, private, and hybrid clouds? [Online] Available: https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds",
+      "What are public, private, and hybrid clouds?, [Online] Available: https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds",
   },
   {
     id: 37,
@@ -288,7 +290,7 @@ const glossary = [
     Descreption:
       "A cloud computing model where cloud resources are used exclusively by a single organization. It offers more control and security but requires dedicated infrastructure.",
     References:
-      "What are public, private, and hybrid clouds? [Online] Available: https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds",
+      "What are public, private, and hybrid clouds?, [Online] Available: https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds",
   },
   {
     id: 38,
@@ -296,7 +298,7 @@ const glossary = [
     Descreption:
       "A contract that defines the level of service, availability, and performance a cloud service provider guarantees to its customers.",
     References:
-      "Service level agreements in Cloud computing [Online] Available: https://www.geeksforgeeks.org/service-level-agreements-in-cloud-computing/",
+      "Service level agreements in Cloud computing, [Online] Available: https://www.geeksforgeeks.org/service-level-agreements-in-cloud-computing/",
   },
   {
     id: 39,
@@ -304,7 +306,7 @@ const glossary = [
     Descreption:
       "The distribution of network traffic or application requests across multiple servers or resources to ensure high availability, scalability, and performance.",
     References:
-      "What is load balancer and how it works [Online] Available: https://medium.com/@itIsMadhavan/what-is-load-balancer-and-how-it-works-f7796a230034",
+      "What is load balancer and how it works, [Online] Available: https://medium.com/@itIsMadhavan/what-is-load-balancer-and-how-it-works-f7796a230034",
   },
   {
     id: 40,
@@ -312,7 +314,85 @@ const glossary = [
     Descreption:
       "A design and development approach that leverages cloud computing principles, such as scalability and microservices, to build and run applications in the cloud.",
     References:
-      "What is Cloud Native? [Online] Available: https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition",
+      "What is Cloud Native?, [Online] Available: https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition",
+  },
+  {
+    id: 41,
+    Term: "Vagrant VM",
+    Descreption:
+      'Vagrant streamlines the creation and management of virtual machine environments, reducing setup time, enhancing production consistency, and eliminating "works on my machine" issues.',
+    References:
+      "Introduction to Vagrant, [online] Available: https://developer.hashicorp.com/vagrant/intro",
+  },
+  {
+    id: 42,
+    Term: "Bitbucket",
+    Descreption:
+      "Bitbucket, owned by Atlassian, is a Git-based source code hosting service that provides commercial plans and free accounts for unlimited private repositories.",
+    References: "Bitbucket, [Online] Available: https://bitbucket.org/product",
+  },
+  {
+    id: 43,
+    Term: "Provider",
+    Descreption:
+      "In Terraform, a provider is a plugin that instructs the tool on which APIs to interact with, encompassing both Cloud and SaaS providers, and is defined in the configuration code.",
+    References:
+      "Provider configuration, [Online] Available: https://developer.hashicorp.com/terraform/language/providers/configuration",
+  },
+  {
+    id: 44,
+    Term: "Publishing",
+    Descreption:
+      "In Terraform you can publish a module to terraform registry to reuse the code. The process of storing the module image on terraform registry is called publishing.",
+    References:
+      "Publishing a Public Module, [Online] Available: https://developer.hashicorp.com/terraform/registry/modules/publish",
+  },
+  {
+    id: 45,
+    Term: "Provisioners",
+    Descreption:
+      "Provisioners are employed to run scripts on either a local or remote machine during the process of creating or destroying resources.",
+    References:
+      "Provisioners, [Online] Available: https://developer.hashicorp.com/terraform/language/resources/provisioners/syntax",
+  },
+  {
+    id: 46,
+    Term: "replicaset",
+    Descreption:
+      "A ReplicaSet ensures a consistent number of identical Pods, preserving their availability and stability.",
+    References:
+      "Creating ReplicaSet in Kubernetes Cluster using Terraform, [Online] Available: https://dipadityadas.medium.com/creating-replicaset-in-kubernetes-cluster-using-terraform-24dedae0bc74#:~:text=A%20ReplicaSet's%20purpose%20is%20to,specified%20number%20of%20identical%20Pods.",
+  },
+  {
+    id: 47,
+    Term: "KEDA (Kubernetes-based Event-Driven Autoscaling)",
+    Descreption:
+      "A project that enables event-driven autoscaling for container workloads on Kubernetes, automatically adjusting resources based on event triggers.",
+    References:
+      "Simplified application autoscaling with Kubernetes Event-driven Autoscaling (KEDA) add-on, [Online] Available: https://learn.microsoft.com/en-us/azure/aks/keda-about",
+  },
+  {
+    id: 48,
+    Term: "GitOps",
+    Descreption:
+      "A methodology where Kubernetes configurations and deployments are managed through version-controlled Git repositories, enabling automated and declarative infrastructure management.",
+    References:
+      "What is GitOps?, [Online] Available: https://www.redhat.com/en/topics/devops/what-is-gitops",
+  },
+  {
+    id: 49,
+    Term: "Service principal",
+    Descreption:
+      "In Azure a service principal is established in each tenant where the application is employed, referencing the globally unique app object, and dictates the app's permissions, access, and resource scope within that specific tenant.",
+    References:
+      "Service principal object, [Online] Available: https://learn.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals?tabs=browser",
+  },
+  {
+    id: 50,
+    Term: "Robo 3T",
+    Descreption:
+      "Robo 3T, formerly known as Robomongo, is a free, lightweight, open-source MongoDB GUI that features an embedded mongo shell, robust auto-completion, and comprehensive support for MongoDB.",
+    References: "Robo 3T, [Online] Available: https://robomongo.org/",
   },
 ];
 /* GET home page. */
